@@ -1,0 +1,85 @@
+! Title: Gabriel’s AdGuard Unified Rules
+! Description: Optimized AdGuard DNS + App Filter (No adult block, full ad removal)
+! Version: 2025.10.16
+! Last Modified: 2025-10-16T00:00+09:00
+! License: Personal Use
+
+! ====== Adult sites allowed (no blocking) ======
+@@||pornhub.com^
+@@||xvideos.com^
+@@||redtube.com^
+@@||xhamster.com^
+@@||youjizz.com^
+@@||youporn.com^
+@@||brazzers.com^
+@@||spankbang.com^
+@@||javhd.com^
+@@||tokyomotion.net^
+@@||hitomi.la^
+@@||hanime.tv^
+@@||rule34.xxx^
+@@||fapello.com^
+
+! ====== Gambling / Betting block ======
+||bet365.com^
+||betway.com^
+||1xbet.com^
+||melbet.com^
+||parimatch.com^
+||fun88.com^
+||w88.com^
+||betfair.com^
+||sportsbet.io^
+||888casino.com^
+
+! ====== General Ad & Tracking domains ======
+||doubleclick.net^
+||googlesyndication.com^
+||ads.yahoo.com^
+||adnxs.com^
+||trackers.adguard.com^
+||tracking.miui.com^
+||facebook.net^
+||instagramads.com^
+||tiktokads.com^
+||ads.twitter.com^
+
+! ====== Korea-based Ad Networks ======
+||naverad.naver.com^
+||adimg.naver.com^
+||adimg.daumcdn.net^
+||ad.pickple.net^
+||ad.about.co.kr^
+||banner.betanews.net^
+||adimg.coupangcdn.com^
+||shoppingad.naver.com^
+||t1.daumcdn.net/adfit^
+
+! ====== Korea-based Ad Media ======
+||kr-cdn-gpp.mcsvc.samsung.com^
+||kr-api.mcsvc.samsung.com^
+||gos-api.gos-gsp.io^
+||backend.dna-delivery.com$all,domain=twitch.tv
+||static.twitchcdn.net/assets/streamroot.streamrooter-*.js$script,domain=www.twitch.tv
+||talk-pilsner.kakao.com^
+||shopper.kakao.com^$app=com.kakao.talk
+||mud-kage.kakao.co.kr/dn^$app=KakaoTalk.exe
+||/vod.afreecatv.com/*
+||vod-player.afreecatv.com/creatives/media/*
+||windroloxy.afreecatv.com/v101/hls/creatives/media/*
+||vod-player001.afreecatv.com/v101/hls/creatives/media/*
+||vod-player002.afreecatv.com/v101/hls/creatives/media/*
+||vod-player003.afreecatv.com/v101/hls/creatives/media/*
+||play.afreecatv.com##.promotion_area
+||play.afreecatv.com###ad_video
+||play.afreecatv.com###videoLayerCover
+||play.afreecatv.com##.text_output
+||play.afreecatv.com##.promotion_area_left
+||play.afreecatv.com##.promotion_area_right
+||cafe.naver.com###plugFloatingBannerDiv
+||naver.com##div#newsstand
+||naver.com##div#themecast
+
+! ====== GitHub Auto-update filters (recommended to add manually too) ======
+! https://raw.githubusercontent.com/yous/YousList/master/youslist.txt
+! https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
