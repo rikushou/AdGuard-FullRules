@@ -43,6 +43,8 @@
 ||instagramads.com^
 ||tiktokads.com^
 ||ads.twitter.com^
+||trackers.adguard.com^
+||tracking.miui.com^
 
 ! ====== Korea-based Ad Networks ======
 ||naverad.naver.com^
