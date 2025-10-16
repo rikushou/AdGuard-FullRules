@@ -4,22 +4,6 @@
 ! Last Modified: 2025-10-16T00:00+09:00
 ! License: Personal Use
 
-! ====== Adult sites allowed (no blocking) ======
-@@||pornhub.com^
-@@||xvideos.com^
-@@||redtube.com^
-@@||xhamster.com^
-@@||youjizz.com^
-@@||youporn.com^
-@@||brazzers.com^
-@@||spankbang.com^
-@@||javhd.com^
-@@||tokyomotion.net^
-@@||hitomi.la^
-@@||hanime.tv^
-@@||rule34.xxx^
-@@||fapello.com^
-
 ! ====== Gambling / Betting block ======
 ||bet365.com^
 ||betway.com^
