@@ -1,15 +1,8 @@
 ! Title: Gabriel’s AdGuard Unified Rules
 ! Description: Optimized AdGuard DNS + App Filter (No adult block, full ad removal)
-! Version: 2025.10.16
-! Last Modified: 2025-10-16T00:00+09:00
+! Version: 2025.10.17
+! Last Modified: 2025-10-17T00:00+09:00
 ! License: Personal Use
-
-! ====== Include these auto-update filters ======
-! https://filters.adtidy.org/extension/ios/filters/2.txt
-! https://filters.adtidy.org/extension/ios/filters/3.txt
-! https://filters.adtidy.org/extension/ios/filters/14.txt
-! https://raw.githubusercontent.com/yous/YousList/master/youslist.txt
-! https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
 
 ! ====== Gambling / Betting block ======
 ||bet365.com^
