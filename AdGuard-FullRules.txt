@@ -4,6 +4,13 @@
 ! Last Modified: 2025-10-16T00:00+09:00
 ! License: Personal Use
 
+! ====== Include these auto-update filters ======
+! https://filters.adtidy.org/extension/ios/filters/2.txt
+! https://filters.adtidy.org/extension/ios/filters/3.txt
+! https://filters.adtidy.org/extension/ios/filters/14.txt
+! https://raw.githubusercontent.com/yous/YousList/master/youslist.txt
+! https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
+
 ! ====== Gambling / Betting block ======
 ||bet365.com^
 ||betway.com^
@@ -27,8 +34,6 @@
 ||instagramads.com^
 ||tiktokads.com^
 ||ads.twitter.com^
-||trackers.adguard.com^
-||tracking.miui.com^
 
 ! ====== Korea-based Ad Networks ======
 ||naverad.naver.com^
@@ -52,10 +57,6 @@
 ||mud-kage.kakao.co.kr/dn^$app=KakaoTalk.exe
 ||/vod.afreecatv.com/*
 ||vod-player.afreecatv.com/creatives/media/*
-||windroloxy.afreecatv.com/v101/hls/creatives/media/*
-||vod-player001.afreecatv.com/v101/hls/creatives/media/*
-||vod-player002.afreecatv.com/v101/hls/creatives/media/*
-||vod-player003.afreecatv.com/v101/hls/creatives/media/*
 ||play.afreecatv.com##.promotion_area
 ||play.afreecatv.com###ad_video
 ||play.afreecatv.com###videoLayerCover
@@ -65,7 +66,3 @@
 ||cafe.naver.com###plugFloatingBannerDiv
 ||naver.com##div#newsstand
 ||naver.com##div#themecast
-
-! ====== GitHub Auto-update filters (recommended to add manually too) ======
-! https://raw.githubusercontent.com/yous/YousList/master/youslist.txt
-! https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
